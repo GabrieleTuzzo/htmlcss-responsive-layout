@@ -158,6 +158,26 @@ img {
     box-shadow: 1px 1px 6px var(--color-dark-grey);
 }
 
+.social i {
+    margin: 0 4px;
+}
+
+.social .facebook i {
+    color: #1A77F3;
+}
+
+.social .twitter i {
+    color: #009EFF;
+}
+
+.social .instagram i {
+    color: #E15B8D;
+}
+
+.social .red i {
+    color: #E62222;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 992px) { 
     .main-content {
@@ -191,6 +211,10 @@ img {
     .flex-list .col {
         width: calc(100% / 3);
     }
+
+    .display-none-md {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -210,10 +234,6 @@ img {
         margin-bottom: 12px;
     }
 
-    .display-none-sm {
-        display: none;
-    }
-
     .card-sidebar .flex-list {
         flex-direction: column;
         gap: 12px;
@@ -221,6 +241,14 @@ img {
 
     .flex-list .col {
         width: 100%;
+    }
+
+    .social .col-2 {
+        flex-basis: 10%;
+    }
+
+    .display-none-sm {
+        display: none;
     }
 }
 
