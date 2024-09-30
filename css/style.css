@@ -216,10 +216,22 @@ img {
     background-color: var(--color-purple);
     color: white;
     padding: 0 30px;
+    font-size: 12px;
 }
 
 .main-footer .row {
     justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.main-footer h4 {
+    margin-bottom: 8px;
+}
+
+.main-footer .flex-list {
+    gap: 12px;
+    text-decoration: underline;
 }
 
 /* UTILITIES */
@@ -264,6 +276,12 @@ img {
 
     .presentation h2::after {
         height: 2px;
+    }
+
+    .main-footer .row {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 14px;
     }
 
     /* UTILITIES */
