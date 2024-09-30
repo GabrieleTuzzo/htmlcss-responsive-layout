@@ -132,8 +132,6 @@ img {
 }
 
 .card-sidebar .flex-list {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     gap: 12px;
 }
@@ -213,6 +211,23 @@ img {
     box-shadow: 1px 1px 6px var(--color-dark-grey)
 }
 
+/* FOOTER */
+.main-footer {
+    background-color: var(--color-purple);
+    color: white;
+    padding: 0 30px;
+}
+
+.main-footer .row {
+    justify-content: space-between;
+}
+
+/* UTILITIES */
+.flex-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 992px) { 
     .main-content {
@@ -251,6 +266,7 @@ img {
         height: 2px;
     }
 
+    /* UTILITIES */
     .display-none-md {
         display: none;
     }
@@ -297,6 +313,7 @@ img {
         margin-bottom: 18px;
     }
 
+    /* UTILITIES */
     .display-none-sm {
         display: none;
     }
