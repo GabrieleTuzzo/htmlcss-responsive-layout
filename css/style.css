@@ -138,7 +138,8 @@ img {
 
 /* SOCIAL */
 .social {
-    margin: 22px auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
 
 .social .row {
